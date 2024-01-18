@@ -1,0 +1,26 @@
+mat-toolbar {
+    height: 71px;
+    background-color: #3da8b2;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #202020;
+    font-weight: 300;
+    color: #FFF;
+    text-shadow: 1px 1px #202020;
+    text-align: center;
+}
+
+.nav-link:hover {
+    /* background-color: #1f6f76; */
+    height: 55px;
+    text-decoration: underline;
+}
+
+a mat-icon {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 2.5px;
+}
