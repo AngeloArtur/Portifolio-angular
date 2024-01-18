@@ -1,4 +1,12 @@
 <app-navbar></app-navbar>
 <app-header></app-header>
 <app-skills></app-skills>
+<app-experiences></app-experiences>
+@defer(on viewport) {
+    <app-portfolio></app-portfolio>
+} @placeholder {
+    <h2>Carregando projetos desenvolvidos</h2>
+} @error {
+    <h2>Ocorreu um erro inesperado</h2>
+}
 <router-outlet></router-outlet>
