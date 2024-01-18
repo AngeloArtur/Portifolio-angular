@@ -1,4 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --color1: #3DA9B2;
+    --color3: #3da8b2;
+    --color3: #60ACB3;
+    --color4: #84AFB3;
+    --color5: #202020;
+    --color6: #10101a;
+    --color7: #2a2a30;
+    --color8: #16161d;
+    --color9: #2C3233;
+    --color10: #223233;
+    --color11: #9b9ba0;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
