@@ -8,7 +8,7 @@ div.blurred-background {
    background-image: url('/assets/images/background.jpg');
    background-size: cover;
    background-repeat: no-repeat;
-   width: 100vw;
+   width: 99.1vw;
    height: 52vh;
    filter: blur(1.7px);
    z-index: -1;
