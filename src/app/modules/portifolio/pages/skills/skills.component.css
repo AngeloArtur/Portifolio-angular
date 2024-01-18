@@ -1,0 +1,15 @@
+.container {
+    align-items: center;
+    flex-flow: wrap;
+    box-sizing: border-box;
+    display: flex;
+    place-content: center;
+}
+mat-card-title {
+    text-transform: capitalize;
+}
+
+.card {
+    max-width: 600px;
+    margin: 10px;
+}

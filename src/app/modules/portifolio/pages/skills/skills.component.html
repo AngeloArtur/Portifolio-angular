@@ -1,1 +1,21 @@
-<p>skills works!</p>
+<h2 style="text-align: center;">
+    Skills
+</h2>
+<div class="container" >
+
+    @for(item of arraySkills(); track item) {    
+        <mat-card class="card">
+            <mat-card-header>
+              <mat-card-title-group>
+                <mat-card-title>{{ item.nameSkill }}</mat-card-title>
+                <mat-card-subtitle>Small</mat-card-subtitle>
+                <img [src]="item.src" alt="item.alt" width="22px" height="24px">
+              </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nihil voluptatem dolorem fugit autem quia quo fuga est, ad nisi sed laboriosam cum. Numquam in sunt, consequatur deserunt quod accusamus.
+            </mat-card-content>
+        </mat-card>
+    }
+       
+</div>
