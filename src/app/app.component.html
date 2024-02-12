@@ -5,8 +5,12 @@
 @defer(on viewport) {
     <app-portfolio></app-portfolio>
 } @placeholder {
-    <h2>Carregando projetos desenvolvidos</h2>
+    <section>
+        <h2>Carregando projetos desenvolvidos</h2>
+    </section>
 } @error {
-    <h2>Ocorreu um erro inesperado</h2>
+    <section>
+        <h2>Ocorreu um erro inesperado</h2>
+    </section>
 }
 <router-outlet></router-outlet>
