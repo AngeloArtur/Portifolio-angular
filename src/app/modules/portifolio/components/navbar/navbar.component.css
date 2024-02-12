@@ -1,26 +1,28 @@
-mat-toolbar {
-    height: 71px;
-    background-color: #3da8b2;
+.navbar {
+    background-color: var(--color3);
+    cursor: pointer;
 }
 
 .nav-link {
-    text-decoration: none;
     color: #202020;
     font-weight: 300;
     color: #FFF;
-    text-shadow: 1px 1px #202020;
+    
+    text-decoration: none;
     text-align: center;
 }
 
-.nav-link:hover {
-    /* background-color: #1f6f76; */
-    height: 55px;
-    text-decoration: underline;
+.active {
+    font-weight: 400;
+}
+
+.active mat-icon {
+    color: var(--color1);
 }
 
 a mat-icon {
     height: 25px;
     width: 25px;
     position: relative;
-    top: 2.5px;
-}
+    top: 4px;
+} 
