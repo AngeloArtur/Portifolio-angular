@@ -1,0 +1,15 @@
+.btn {
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+    cursor: pointer;
+    background-color: var(--color3);
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background-color: var(--color2);
+}
